@@ -42,3 +42,28 @@ li{
     grid-column: 2/3;
     float: right;
 }
+
+.container .cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.container .cards img{
+    border-radius: 50%;
+}
+
+.testing-description{
+    display: flex;
+    grid-column: 2/3;
+    justify-content: left;
+
+}
+
+.cta{
+    grid-column: 2/3;
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+    vertical-align: center;
+}
+
