@@ -1,7 +1,8 @@
 /* Add your CSS to this file */
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .container {
@@ -16,6 +17,8 @@ body {
 
 .container h1{
     float: right;
+    background-color: whhite;
+    font-size: 18px;
 }
 
 .container nav{
@@ -27,6 +30,11 @@ body {
 li{
     display: inline;
     justify-content: right;
+    color: #6b2806;
+}
+
+li :hover{
+    color: #5A67D8;
 }
 
 
@@ -66,4 +74,29 @@ li{
     padding: 20px;
     vertical-align: center;
 }
+
+.stories .container img{
+    float: left;
+    padding: 5px;
+    padding-right: 10px;
+    border-radius: 50%;
+}
+
+.newsletter .container h3{
+    display: flex; 
+    justify-content: center;
+}
+
+.newsletter .container p{
+    display: flex; 
+    justify-content: center;
+}
+
+.form-group{
+    display: inline;
+
+}
+
+
+
 
